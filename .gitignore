@@ -6,8 +6,35 @@ Thumbs.db
 Desktop.ini
 .DS_Store
 
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+*.sqlite3
+db.sqlite3
+
+# Django
+backend/staticfiles/
+backend/media/
+
 # node modules
 node_modules/
 
+# Frontend build output
+frontend/dist/
+
 # vscode
 .vscode/
+
+# IDE
+.idea/
+
+# Environment files
+.env
+.env.local
